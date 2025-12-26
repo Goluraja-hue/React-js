@@ -1,0 +1,8 @@
+.nav {
+    background-color: rgb(33, 126, 126);
+    padding: 10px;
+}
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+}
