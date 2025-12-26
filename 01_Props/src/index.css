@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: monospace;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+#perent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card button{
+    color: #111;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 2px 20px;
+}
+.card p{
+    margin-top: 10px;
+}
