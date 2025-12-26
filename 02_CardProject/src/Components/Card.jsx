@@ -2,6 +2,7 @@ import React from "react";
 import { Bookmark } from "lucide-react";
 
 const Card = (prop) => {
+  console.log(prop.img);
   return (
     <div className="card">
       <div className="top">
