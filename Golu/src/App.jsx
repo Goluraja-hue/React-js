@@ -1,8 +1,11 @@
 import React from 'react'
+import Col from './Components'
 
 const App = () => {
   return (
-    <h1>golu kumar</h1>
+    <div>
+      <Col />
+    </div>
   )
 }
 
