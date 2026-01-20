@@ -7,6 +7,9 @@ const App = () => {
  const Increase = () => {
     setNum(Num+1)
  }
+ const jump = () => {
+    setNum(Num+5)
+ }
  
  const Decrease = () => {
   if (Num !== 0) {
@@ -21,6 +24,7 @@ const App = () => {
         <h1>{Num}</h1>
         <button onClick={Increase}>Increase</button>
         <button onClick={Decrease}>decrease</button>
+        <button onClick={jump}>Jump 5</button>
       </div>
     </div>
   );
