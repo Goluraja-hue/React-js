@@ -1,8 +1,10 @@
 import React from 'react'
+import Card from './Card';
+import Array from './Array';
 
 const App = () => {
 
-  const click = (e) => {
+  const Submit = (e) => {
     e.preventDefault();
     console.log("form submitted");
   }
@@ -11,11 +13,15 @@ const App = () => {
     <div>
       <h1>Form Handling Example</h1>
       <form onSubmit={(e)=>{
-        click(e);
+        Submit(e);
       }}>
         <input type="text" placeholder='Enter Name' />
         <button>Submit</button>
       </form>
+
+      
+      {/* <Card />
+      <Array /> */}
     </div>
   )
 }
