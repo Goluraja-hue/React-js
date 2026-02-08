@@ -6,7 +6,8 @@ const App = () => {
 
   const submit = (e) => {
     e.preventDefault();
-    console.log("waiting......");
+    console.log("waiting......",title);
+    setTitle("");
   };
 
   return(
